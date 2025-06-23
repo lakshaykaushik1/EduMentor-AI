@@ -5,6 +5,9 @@
 </p>
 
 <p align="center">
+  <a href="https://app.netlify.com/sites/edumentor-ai/deploys">
+    <img src="https://api.netlify.com/api/v1/badges/c60651a5-a1d5-4b71-9a82-725b63f716e5/deploy-status" alt="Netlify Status">
+  </a>
   <img src="https://img.shields.io/badge/License-Apache_2.0-blue.svg?style=flat-square" alt="License">
   <img src="https://img.shields.io/github/languages/count/lakshaykaushik1/EduMentor-AI?style=flat-square&color=blueviolet" alt="Languages Used">
   <img src="https://img.shields.io/github/stars/lakshaykaushik1/EduMentor-AI?style=flat-square&color=yellow" alt="Stars">
