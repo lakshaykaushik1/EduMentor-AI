@@ -64,3 +64,10 @@ npm run build
 
 ### 🖼️ Preview 2
 ![Preview 2](preview2.png)
+
+---
+## 🎥 Demo Video
+
+<video src="demo.mp4" controls width="100%"></video>
+
+---
