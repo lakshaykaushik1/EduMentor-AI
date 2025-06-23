@@ -65,9 +65,11 @@ npm run build
 ### 🖼️ Preview 2
 ![Preview 2](preview2.png)
 
----## 🎥 Demo Video
-
-[▶️ Watch the Demo](./demo.mp4)
-
 ---
+
+## 🎥 Demo Video
+
+[![Watch the Demo](https://img.youtube.com/vi/u2jv1jczjZE/0.jpg)](https://youtu.be/u2jv1jczjZE)
+
+> 📺 Click the image to watch the full EduMentor-AI demo on YouTube.
 ---
