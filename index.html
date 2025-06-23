@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <script src="https://accounts.google.com/gsi/client" async
+            defer></script>
+        <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
+        <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
+<script>
+  emailjs.init("Vumo96AfHz8XPUPg2"); // ✅ Your actual Public Key
+</script>
+        <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+            rel="stylesheet">
+        <title>EduMentor AI: Personalized Learning and Assessment
+            Platform</title>
+        <link rel="icon" href="Images/Logoo1.jpg" type="image/x-icon" />
+        <link rel="stylesheet" href="style.css" />
+    </head>
+
+    <body>
+        <!-- Header Section -->
+        <section class="header">
+            <div class="h">
+                <div class="logo">
+                    <img src="Images/Logoo1.jpg" alt="EduMentor AI Logo" />
+                </div>
+                <div class="navbar-container">
+                    <nav class="navbar">
+                        <ul>
+                            <li><a href="#">Home</a></li>
+                            <li><a href="about.html">About Us</a></li>
+                            <li><a href="courses.html">Courses</a></li>
+                            <li><a href="contact.html">Contact</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </section>
+
+        <!-- Home Section -->
+        <section class="home">
+            <div class="screen">
+                <div class="img">
+                    <img src="Images/hero-image.jpg" alt="EduMentor AI Hero" />
+                </div>
+                <div class="txt">
+                    <h1>Welcome to EduMentor AI</h1>
+                    <p>Personalized Learning and Assessment Platform</p>
+                    <button class="btn-primary" onclick="openAuthModal()">Get
+                        Started</button>
+                    <button class="btn-primary" onclick="openAuthModal()">Join
+                        as Teacher</button>
+                    <button class="btn-primary" onclick="openAuthModal()">Book a
+                        demo</button>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section class="about">
+            <div class="about-container">
+                <div class="about-image">
+                    <img src="Images/about-edu.png" alt="About EduMentor AI" />
+                </div>
+                <div class="about-text">
+                    <h2>About EduMentor AI</h2>
+                    <p>
+                        EduMentor AI brings AI-powered personalized learning to
+                        students aged 10–18...
+                    </p>
+                    <p>
+                        Built with Microsoft Azure, EduMentor ensures
+                        accessible, inclusive, and intelligent education.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Features Section -->
+        <section class="features">
+            <h2>Key Features</h2>
+            <div class="features-container">
+                <div class="feature-card">
+                    <h3>AI-Powered Learning</h3>
+                    <p>Personalized content with Microsoft Azure AI</p>
+                </div>
+                <div class="feature-card">
+                    <h3>Offline Support</h3>
+                    <p>Works even with low internet connectivity</p>
+                </div>
+                <div class="feature-card">
+                    <h3>Real-Time Analytics</h3>
+                    <p>Track student progress and improve performance</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Pricing Section -->
+        <section class="pricing">
+            <h2>Our Plans</h2>
+            <div class="pricing-container">
+                <div class="pricing-card">
+                    <div class="card-inner">
+                        <div class="card-front">
+                            <h3>30-Day Free Trial</h3>
+                            <p>Explore limited features</p>
+                        </div>
+                        <div class="card-back">
+                            <h3>Free for 30 Days</h3>
+                            <ul>
+                                <li>✔ Limited lessons & quizzes</li>
+                                <li>✔ No certifications</li>
+                                <li>✔ Limited analytics</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="pricing-card">
+                    <div class="card-inner">
+                        <div class="card-front">
+                            <h3>Standard Plan</h3>
+                            <p>Affordable learning</p>
+                        </div>
+                        <div class="card-back">
+                            <h3>₹599 / month</h3>
+                            <ul>
+                                <li>✔ Basic lessons & quizzes</li>
+                                <li>✔ Limited tracking</li>
+                                <li>✔ No downloads</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="pricing-card">
+                    <div class="card-inner">
+                        <div class="card-front">
+                            <h3>Very Advanced Plan</h3>
+                            <p>All-in-one solution</p>
+                        </div>
+                        <div class="card-back">
+                            <h3>₹999 / month</h3>
+                            <ul>
+                                <li>✔ All content access</li>
+                                <li>✔ Real-time reports</li>
+                                <li>✔ Downloads & certification</li>
+                                <li>✔ Priority support</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Testimonials -->
+        <section class="testimonials">
+            <h2>What Our Users Say</h2>
+            <div class="testimonial-container">
+                <div class="testimonial-card">
+                    <p>"EduMentor AI has changed the way I study..."</p>
+                    <h4>– Aarav, Student</h4>
+                </div>
+                <div class="testimonial-card">
+                    <p>"As a teacher, I love how easily I can track performance..."</p>
+                    <h4>– Ms. Sharma, Educator</h4>
+                </div>
+                <div class="testimonial-card">
+                    <p>"Finally, an AI-based platform that works offline!"</p>
+                    <h4>– Priya, Parent</h4>
+                </div>
+            </div>
+        </section>
+
+        <!-- FAQ Section -->
+        <section class="faq">
+            <div class="faq-container">
+                <h2>Frequently Asked Questions</h2>
+                <div class="faq-item">
+                    <h3 class="faq-question">What is EduMentor AI?</h3>
+                    <p class="faq-answer">It is a platform for students 10–18
+                        powered by AI.</p>
+                </div>
+                <div class="faq-item">
+                    <h3 class="faq-question">Is it free?</h3>
+                    <p class="faq-answer">It offers both free and premium
+                        plans.</p>
+                </div>
+                <div class="faq-item">
+                    <h3 class="faq-question">Can teachers use it?</h3>
+                    <p class="faq-answer">Yes! Teachers can track and assign
+                        work.</p>
+                </div>
+                <div class="faq-item">
+                    <h3 class="faq-question">Does it work offline?</h3>
+                    <p class="faq-answer">Yes, optimized for low internet
+                        environments.</p>
+                </div>
+                <div class="faq-item">
+                    <h3 class="faq-question">How can I get started?</h3>
+                    <p class="faq-answer">Click "Get Started" and sign in with
+                        Google.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Auth Modal -->
+        <div id="authModal" class="auth-modal" style="display: none;">
+            <div class="auth-content">
+                <span class="close-auth"
+                    onclick="closeAuthModal()">&times;</span>
+                <div class="auth-tabs">
+                    <button class="tab-btn active"
+                        onclick="switchTab('login')">Login</button>
+                    <button class="tab-btn" onclick="switchTab('signup')">Sign
+                        Up</button>
+                </div>
+                <div class="auth-body">
+                    <!-- Login -->
+                    <div id="login" class="auth-form active-form">
+                        <input type="email" placeholder="Enter Email" />
+                        <button class="otp-btn">Send OTP</button>
+                        <input type="text" placeholder="Enter OTP" />
+                        <button class="submit-btn" id="loginBtn">Login</button>
+
+                        <p>or login with:</p>
+                        <div id="g_id_onload"
+                            data-client_id="883702319921-p6fjb8mf6l68oegmi0f2s8cp2jgemorf.apps.googleusercontent.com"
+                            data-context="signin"
+                            data-ux_mode="popup"
+                            data-callback="handleCredentialResponse"
+                            data-auto_prompt="false">
+                        </div>
+
+                        <div class="g_id_signin"
+                            data-type="standard"
+                            data-shape="pill"
+                            data-theme="outline"
+                            data-text="signin_with"
+                            data-size="large"
+                            data-logo_alignment="left">
+                        </div>
+
+                    </div>
+
+                    <!-- Signup -->
+                    <div id="signup" class="auth-form">
+                        <input type="text" placeholder="Full Name" />
+                        <input type="email" placeholder="Email" />
+                        <button class="otp-btn">Send OTP</button>
+                        <input type="text" placeholder="Enter OTP" />
+                        <input type="password" placeholder="Create Password" />
+                        <button class="submit-btn">Sign Up</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Floating Contact Icons -->
+        <div class="floating-icons">
+            <a href="https://wa.me/919582407137" class="icon whatsapp"
+                title="WhatsApp">
+                <i class='bx bxl-whatsapp'></i>
+            </a>
+            <a href="tel:+919582407137" class="icon call" title="Call Us">
+                <i class='bx bx-phone'></i>
+            </a>
+            <a href="https://www.instagram.com/yourhandle"
+                class="icon instagram" title="Instagram">
+                <i class='bx bxl-instagram'></i>
+            </a>
+            <a href="mailto:aayushkaushik3012@gmail.com" class="icon mail"
+                title="Email">
+                <i class='bx bx-envelope'></i>
+            </a>
+        </div>
+
+        <!-- Footer -->
+        <section class="footer">
+            <div class="footer-container">
+                <div class="footer-column about">
+                    <h3>EduMentor AI</h3>
+                    <p>Empowering students with personalized learning.</p>
+                </div>
+                <div class="footer-column links">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="courses.html">Courses</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column newsletter">
+                    <h4>Subscribe</h4>
+                    <input type="email" placeholder="Enter your email" />
+                    <button>Subscribe</button>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 EduMentor AI. All rights reserved.</p>
+            </div>
+        </section>
+
+        <!-- JavaScript -->
+                <script>
+                    function openAuthModal() {
+                    document.getElementById("authModal").style.display = "flex";
+                    }
+
+                    function closeAuthModal() {
+                    document.getElementById("authModal").style.display = "none";
+                    }
+
+                    function switchTab(tab) {
+                    document.querySelectorAll('.auth-form').forEach(form => form.classList.remove('active-form'));
+                    document.querySelectorAll('.tab-btn').forEach(btn => btn.classList.remove('active'));
+                    document.getElementById(tab).classList.add('active-form');
+                    event.target.classList.add('active');
+                    }
+
+                   document.getElementById("loginBtn").addEventListener("click", function () {
+    const enteredOTP = document.querySelector('#login input[placeholder="Enter OTP"]').value;
+    const savedOTP = localStorage.getItem("loginOTP");
+
+    if (enteredOTP === savedOTP) {
+      const email = document.querySelector('#login input[type="email"]').value;
+      localStorage.setItem("studentEmail", email);
+      window.location.href = "dashboard.html";
+    } else {
+      alert("Invalid OTP. Please try again.");
+    }
+  });
+
+    emailjs.send("service_y5gof0f", "template_y5gklnv", templateParams)
+      .then(() => {
+        alert("✅ OTP sent successfully to " + email);
+      })
+      .catch((error) => {
+        console.error("❌ EmailJS Error:", error);
+        alert("❌ Failed to send OTP. See console for details.");
+      });
+
+  // Attach to both "Send OTP" buttons
+  document.querySelectorAll(".otp-btn").forEach(button => {
+    button.addEventListener("click", function () {
+      const emailInput = this.closest(".auth-form").querySelector('input[type="email"]');
+      const email = emailInput.value.trim();
+
+      if (email && email.includes("@")) {
+        sendOTP(email);
+      } else {
+        alert("Please enter a valid email address.");
+      }
+    });
+  });
+</script>
+                <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
+
+        <!-- ✅ Chatbase Chatbot -->
+        <script
+            src="https://www.chatbase.co/embed.min.js"
+            chatbotId="CEq8SBToE2ENTc7HNyn0N"
+            domain="www.chatbase.co"
+            defer>
+        </script>
+        <script>
+  document.getElementById("loginBtn").addEventListener("click", function () {
+    const enteredOTP = document.querySelector('#login input[placeholder="Enter OTP"]').value;
+    const savedOTP = localStorage.getItem("loginOTP");
+
+    if (enteredOTP === savedOTP) {
+      const email = document.querySelector('#login input[type="email"]').value;
+      localStorage.setItem("studentEmail", email);
+      window.location.href = "dashboard.html";
+    } else {
+      alert("Invalid OTP. Please try again.");
+    }
+  });
+</script>
+    </body>
+</html>
