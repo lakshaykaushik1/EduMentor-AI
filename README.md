@@ -68,6 +68,6 @@ npm run build
 ---
 ## 🎥 Demo Video
 
-<video src="demo.mp4" controls width="100%"></video>
+<video src="Demo Vide (1).mp4" controls width="100%"></video>
 
 ---
